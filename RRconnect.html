@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RustRevolt Direkt-Join</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0e0e0e;
+      color: #ddd;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      color: #ff6600;
+    }
+    p {
+      margin-top: 10px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #ff6600;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      transition: 0.2s;
+    }
+    a:hover {
+      background-color: #ff8533;
+    }
+  </style>
+</head>
+<body>
+  <h1>RustRevolt Direkt-Verbindung</h1>
+  <p>Klicke auf den Button, um dich direkt mit dem Server zu verbinden:</p>
+  <a href="steam://connect/109.230.239.82:28015">Jetzt verbinden 🚀</a>
+
+  <script>
+    // Automatische Weiterleitung nach kurzer Verzögerung
+    setTimeout(() => {
+      window.location.href = "steam://connect/109.230.239.82:28015";
+    }, 1500);
+  </script>
+</body>
+</html>
